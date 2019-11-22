@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html(lang="en")
+    head  
+        link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")     
+        title form template form
+    body
+        div.row.justify-content-center
+            div.col-md-6
+                div.card-header
+                    header.card-title Login into your account
+                form(method="post" action ="registration") 
+                    div.form-row
+                        div.col-form-group
+                            label User name
+                            input.form-control(name ="username")
+                        
+ 
+                    div.form-group
+                                label Enter password
+                                input.form-control(name="password" type="password" value="password")
+                    div.form-group
+                                button.btn.btn-primary.btn-block(type="submit") Login
